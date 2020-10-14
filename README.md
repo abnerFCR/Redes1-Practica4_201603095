@@ -201,7 +201,7 @@ R1(config)# int fastethernet 0/0
 R1(config-if)# speed auto 
 ``` 
 
-9. Coguramos el modo full-duplex de la interfaz.
+9. Configuramos el modo full-duplex de la interfaz.
 
 ```sh
 R1(config-if)# full-duplex
@@ -455,7 +455,7 @@ La ruta principal que tomarian los paquetes tomando en cuenta los puertos bloque
 ![image](https://user-images.githubusercontent.com/37676214/95942247-eea9d200-0d9f-11eb-90fa-b782b9de1791.png)
 
 
-#### Configuracion Switches
+### Configuracion Switches
 
 En GNS3 estos switch no se pueden configurar por medio de la consola, asi que la solucion es configurarlos a traves de su asistente. 
 
@@ -467,6 +467,10 @@ En este caso se deben de poner los puertos que van a los host (VPCs y Maquina vi
 -
 ![image](https://user-images.githubusercontent.com/37676214/95943050-03876500-0da2-11eb-8e48-0b1edaf8e6fc.png)
 
+### Captura de paquetes en la ruta principal y en la ruta bloqueada
+
+-
+![image](https://user-images.githubusercontent.com/37676214/95944341-3d0d9f80-0da5-11eb-9920-6dd85361a38a.png)
 
 
 ### Verificando Conexiones
